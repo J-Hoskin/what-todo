@@ -1,0 +1,40 @@
+.App {
+  font-family: "Fira Sans";
+  color: #1B1C1D;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .PageContent {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .PageContent {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .PageContent {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .PageContent {
+    width: 25%;
+    margin: 0 auto;
+  }
+}
+
+*:focus {
+  outline: none;
+}

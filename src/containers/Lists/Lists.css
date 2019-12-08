@@ -1,0 +1,9 @@
+.Lists {
+    width: 100%;
+    margin: 80px auto;
+}
+
+.Lists h4 {
+    opacity: 0.7;
+    text-align: left;
+}

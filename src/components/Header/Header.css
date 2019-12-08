@@ -1,0 +1,60 @@
+.Header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background: #1B1C1D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.ReturnLink,
+.ReturnLink:visited {
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+}
+
+.ReturnLink:hover {
+    color: #A333C8;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .ReturnLink {
+      left: 10%;
+    }
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .ReturnLink {
+        left: 25%;
+    }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen  and (min-width : 1224px) {
+    .ReturnLink {
+        left: 30%;
+    }
+  }
+  
+  /* Large screens ----------- */
+  @media only screen  and (min-width : 1824px) {
+    .ReturnLink {
+        left: 37.5%;
+    }
+  }
+
+
+.Header h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
